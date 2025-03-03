@@ -56,6 +56,7 @@ jobs:
         id: changelog
         uses: mikepenz/release-changelog-builder-action@v5
         with:
+          mode: "COMMIT"
           configuration: ./.github/json/config-latest.json
           fromTag: bleeding-edge
           toTag: refs/heads/main
