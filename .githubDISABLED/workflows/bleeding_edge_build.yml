@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ github.token }}
-      GRADLE_OPTS: "-Djava.net.preferIPv4Stack=true"
       BLEEDING_EDGE: true
       CI: true
     permissions:
